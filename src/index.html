@@ -13,21 +13,21 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset name="personal-infomation">
+      <fieldset name="Fieldset_tag-0">
         <legend>Personal information</legend>
         <label for="surname" class="label">Surname:
-          <input type="text" name="surname" 
+          <input type="text" name="surname"
           autocomplete="off" required>
         </label>
 
-        <label for="name" class="label">Surname:
+        <label for="name" class="label">Name:
           <input type="text" name="name"
           autocomplete="off" required>
         </label>
 
         <label for="age" class="label">How old are you?
           <input type="number" name="age"
-          placeholder="12" minlength="1" 
+          value="12" minlength="1"
           maxlength="100" required>
         </label>
 
@@ -41,7 +41,7 @@
         </label>
       </fieldset>
 
-      <fieldset name="registration">
+      <fieldset name="Fieldset_tag-1">
         <legend>Registration</legend>
         <label for="email" class="label">E-mail:
           <input type="email" name="email"
@@ -54,11 +54,11 @@
         </label>
       </fieldset>
 
-      <fieldset name="interestingFfacts">
+      <fieldset name="Fieldset_tag-2">
         <legend>An interesting fact about you!</legend>
         <label for="cats" class="label">Do you love cats?
-          <input type="radio" name="cats">Yes
-          <input type="radio" name="cats">No
+          <input type="radio" name="cats">  Yes
+          <input type="radio" name="cats">  No
         </label>
 
         <label for="color" class="label">What is your favorite color?
@@ -84,17 +84,17 @@
         </label>
       </fieldset>
 
-      <fieldset name="additionalInfo">
+      <fieldset name="Fieldset_tag-3">
         <legend>Additional info</legend>
-        <label for="comment">Comment:
+        <label for="comment" class="label">Comment:
           <textarea name="comment">
           </textarea>
         </label>
-        
-        <label for="recommend">Would you recommend us?
+
+        <label for="recommend" class="label">Would you recommend us?
           <select name="recommend">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">  Yes</option>
+            <option value="no">  No</option>
           </select>
         </label>
       </fieldset>
