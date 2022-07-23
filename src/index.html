@@ -25,7 +25,7 @@
           autocomplete="off" required>
         </label>
 
-        <label for="age" class="label">How old are you?
+        <label for="age" class="label ageInput">How old are You?
           <input type="number" name="age"
           value="12" minlength="1"
           maxlength="100" required>
@@ -36,7 +36,7 @@
           required>
         </label>
 
-        <label for="terms" class="label">I accept terms of agreement
+        <label for="terms" class="lastInput">I accept the terms of the agreement
           <input type="checkbox" name="terms">
         </label>
       </fieldset>
@@ -48,7 +48,7 @@
           placeholder="email@example.com" required>
         </label>
 
-        <label for="password">Password:
+        <label for="password" class="lastInput">Password:
           <input type="password" name="password"
           required>
         </label>
@@ -77,7 +77,7 @@
           </select>
         </label>
 
-        <label for="rate" class="label">How do you rate our work?
+        <label for="rate" class="lastInput">How do you rate our work?
           <input type="range" name="rate"
           min="1" max="10"
           value="1">
@@ -86,15 +86,15 @@
 
       <fieldset name="Fieldset_tag-3">
         <legend>Additional info</legend>
-        <label for="comment" class="label">Comment:
-          <textarea name="comment">
+        <label for="comments" class="label">Comments:
+          <textarea name="comments">
           </textarea>
         </label>
 
-        <label for="recommend" class="label">Would you recommend us?
+        <label for="recommend" class="lastInput">Would you recommend us?
           <select name="recommend">
-            <option value="yes">  Yes</option>
-            <option value="no">  No</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
           </select>
         </label>
       </fieldset>
