@@ -9,9 +9,5 @@ fieldset {
 }
 
 .ageInput > input {
-  width: 40px;
-}
-
-.lastInput {
-  display: block;
+  width: 65px;
 }
