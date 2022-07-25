@@ -1,13 +1,11 @@
 /* styles go here */
-.label {
+.form-fields {
   display: block;
   margin-bottom: 10px;
 }
 
-fieldset {
+.fieldset {
+  display: block;
   margin-bottom: 20px;
-}
-
-.ageInput > input {
-  width: 65px;
+  padding-bottom: 0;
 }
