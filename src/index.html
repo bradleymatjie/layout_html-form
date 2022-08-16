@@ -12,14 +12,10 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    autocomplete="off">
-
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+     autocomplete="off">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-
         <label class="form-fields">
           Surname:
           <input
@@ -41,7 +37,7 @@
           <input
             class="input"
             type="number"
-            name="yeares"
+            name="years"
             min="1"
             max="100"
             value="12"
@@ -65,12 +61,10 @@
           >
         </label>
       </fieldset>
-
       <fieldset class="fieldset">
         <legend>
           Registration
         </legend>
-
         <label class="form-fields">
           E-mail:
           <input
@@ -90,10 +84,7 @@
             required
           >
         </label>
-
       </fieldset>
-
-
       <fieldset class="fieldset">
         <legend>
           An interesting fact about you!
@@ -102,15 +93,17 @@
           Do you love cats?
           <input
           class="input"
-          id="Yes"
+          id="yes"
           type="radio"
-          name="cat">
+          name="cat"
+          value="yes">
           <label for="yes">Yes</label>
           <input
           class="input"
           id="no"
           type="radio"
-          name="cat">
+          name="cat"
+          value="no">
           <label for="no">No</label>
         </label>
         <label class="form-fields">
@@ -118,7 +111,8 @@
           <input
           class="input"
           type="color"
-          name="color">
+          name="color"
+          >
         </label>
         <label class="form-fields">
           What time do you go to bed?
@@ -146,12 +140,10 @@
           name="rate">
         </label>
       </fieldset>
-
       <fieldset class="fieldset">
         <legend>
           Additional info:
         </legend>
-
         <label class="form-fields">
           Comments:
           <textarea name="comments"></textarea>
@@ -165,7 +157,6 @@
             <option value="no">no</option>
           </select>
         </label>
-
       </fieldset>
       <button type="submit">Submit</button>
     </form>
