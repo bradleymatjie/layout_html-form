@@ -12,41 +12,57 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
-      autocomplete="off">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      autocomplete="off"
+    >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         <label class="form-fields">
           Surname:
           <input
-            class="input" type="text"
-            name="surname">
+            class="input"
+            type="text"
+            name="surname"
+          >
         </label>
         <label class="form-fields">
           Name:
           <input
-            class="input" type="text"
-            name="name">
+            class="input"
+            type="text"
+            name="name"
+          >
         </label>
         <label class="form-fields">
           How old are You?
           <input
-            class="input" type="number"
-            name="years" min="1"
-            max="100"value="12">
+            class="input"
+            type="number"
+            name="years"
+            min="1"
+            max="100"
+            value="12"
+          >
         </label>
         <label class="form-fields">
           Full date of birth:
           <input
-            class="input" type="date"
-            name="birthdate" value="01/01/2000">
+            class="input"
+            type="date"
+            name="birthdate"
+            value="01/01/2000"
+          >
         </label>
         <label class="form-fields">
           I accept the term of the agreement
           <input
-            class="input" type="checkbox"
-            name="accept" value="false"
-            required>
+            class="input"
+            type="checkbox"
+            name="accept"
+            value="false"
+            required
+          >
         </label>
       </fieldset>
       <fieldset class="fieldset">
@@ -56,16 +72,21 @@
         <label class="form-fields">
           E-mail:
           <input
-            type="email" name="email"
+            type="email"
+            name="email"
             placeholder="email@example.com"
-            required>
+            required
+          >
         </label>
         <label class="form-fields">
           Password:
           <input
-            type="password" name="password"
-            minlength="5" maxlength="20"
-            required>
+            type="password"
+            name="password"
+            minlength="5"
+            maxlength="20"
+            required
+          >
         </label>
       </fieldset>
       <fieldset class="fieldset">
@@ -75,26 +96,39 @@
         <label class="form-fields">
           Do you love cats?
           <input
-            class="input" id="yes"
-            type="radio" name="cat"
-            value="yes">
+            class="input"
+            id="yes"
+            type="radio"
+            name="cat"
+            value="yes"
+          >
           <label for="yes">Yes</label>
-          <input class="input" id="no"
-            type="radio" name="cat"
-            value="no">
+          <input 
+            class="input"
+            id="no"
+            type="radio"
+            name="cat"
+            value="no"
+          >
           <label for="no">No</label>
         </label>
         <label class="form-fields">
           What is your favorit color?:
           <input
-            class="input" type="color"
-            name="color" value="#000000">
+            class="input"
+            type="color"
+            name="color"
+            value="#000000"
+          >
         </label>
         <label class="form-fields">
           What time do you go to bed?
           <input
-            class="input" type="time"
-            name="time" value="00:00">
+            class="input"
+            type="time"
+            name="time"
+            value="00:00"
+          >
         </label>
         <label class="form-fields">
           What are your favorite brand of cats?
@@ -110,8 +144,11 @@
         <label class="form-fields">
           How do you rate our work?
           <input
-            class="input" type="range"
-            name="rate" value="1">
+            class="input"
+            type="range"
+            name="rate"
+            value="1"
+          >
         </label>
       </fieldset>
       <fieldset class="fieldset">
@@ -126,7 +163,8 @@
           Would you reccomend us?
           <select
             name="recommend"
-            size="1">
+            size="1"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
